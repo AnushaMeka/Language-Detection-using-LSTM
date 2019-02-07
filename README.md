@@ -12,7 +12,7 @@ We designed 2 LSTM for English and French language with 128 nodes and trained it
 
 Result :
 
-We ran it for 20 epochs and obtained ROC-Auc value of 0.95 and accuracy value of 84% Confusion matrix: [[81 19] [13 87]]
+I ran it for 20 epochs and obtained ROC-Auc value of 0.95 and accuracy value of 84% Confusion matrix: [[81 19] [13 87]]
 
 Remember that from epoch to next epoch down to 20 epochs, there should be a decreasing trend of loss value and increase in accuracy value gradually. If there is no gradual increase in accuracy and if it is remaining almost the same then we can depict that your LSTM network is not trained but not that your network is overfitting the data.
 
